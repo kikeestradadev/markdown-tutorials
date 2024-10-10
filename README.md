@@ -9,8 +9,7 @@ for this i use:
 
 Instructions: 
 * ```gulp dev``` for develop environment
-* ```gulp build``` before deployment
-* ```npm run deploy``` to publish the site in gh pages
+* ```npm run deploy``` for GitHub Pages
 
-## gh-pages link: https://kikeestrada.github.io/gulp-boilerplate-2024/
+## gh-pages link: https://kikeestrada.github.io/markdown-tutorials/
 
