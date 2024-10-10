@@ -1,0 +1,29 @@
+.top-nav{
+	border-bottom 	: 1px solid #DFE0E0;
+	background    	: #FFF;
+	position      	: fixed;
+	top           	: 0;
+	width         	: 100%;
+	left          	: 0;
+	display 		: flex;
+	justify-content : center;
+	z-index: 1;
+
+	&__container{
+		display 		: flex;
+		justify-content : space-between;
+		height        	: var(--header-height);
+		width: 100%;
+		max-width: 1200px;
+		padding: 0 15px;
+	}
+
+	&__link{
+		align-self: center;
+	}
+	&__logo{
+		height: 2rem;
+		width: auto;
+		display: block;
+	}
+}

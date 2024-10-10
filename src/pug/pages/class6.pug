@@ -1,14 +1,14 @@
 extends ../config/template
 append config
-	-currentPage		= "home"
-	-siteName			= 'Layouts'
+	-currentPage		= "class6"
+	-siteName			= 'Class 6'
 	-content			= 'content'
 	-pageDescription	= 'Content of the XXXX Course'
 block main-header
 block main-container
 	.ed-container.main-section
 		include ../components/side-menu
-		main(itemscope itemprop="mainContentOfPage" role="main").ed-item.l-75.main-main 
-			h1 Description
+		main(itemscope itemprop="mainContentOfPage" role="main").ed-item.l-75.main-main
+			include:markdown-it(html) ../../md/class6/class6.md
 block main-footer
-block scripts 
+block scripts

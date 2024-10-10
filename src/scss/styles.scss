@@ -1,6 +1,8 @@
 /*here start de website template core*/
 @import "./core/normalize.scss";
+@import "./libraries/prism";
 @import "./core/ed-grid.scss"; 
+@import "./core/variables";
 @import "./layout/layout.scss";
 @import "./layout/fonts.scss";
 @import "./core-modules/core-modules"; 
@@ -12,4 +14,4 @@
 
 /*here start the hacks section*/
 @import "./hacks/hacks";
-/*here finish the hacks section*/
+/*here finish the hacks section*/ 

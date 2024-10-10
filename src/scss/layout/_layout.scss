@@ -1,18 +1,32 @@
 *,
 *::before,
 *::after {
-	box-sizing							: border-box;
+	box-sizing: border-box;
 }
 
 ::selection {
 	color: white;
-	background: #9e852e;
+	background: #006DC6;
 }
-:root {
-	--boder-layout						: steelblue;		// border color to see the layout
-	--boder-layout-fixed				: red;				// border color to see the layout in fixed elements
+
+strong {
+	font-weight 	: 700;
 }
+
 body {
-	margin      : 0;
-  //   font-family : sans-serif;
+	margin         	: var(--header-height) 0 0 0;
+	min-height     	: calc(100vh - var(--header-height));
+	background 		: var(--body-bg);
+	display        	: flex;
+	flex-direction 	: column;
+}
+
+.main-header{}
+.main-container{}
+.main-footer {
+	background 		: $color-first;
+	color      		: #FFF;
+	padding    		: 2rem 0;
+	font-size  		: fontSize(small);
+	margin-top 		: auto;
 }

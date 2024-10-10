@@ -10,6 +10,8 @@ html(lang='en' prefix='og: http://ogp.me/ns#', class='no-js')
 	body(class=currentPage, itemscope itemtype="http://schema.org/WebPage")
 		//- here start the Main Header
 		header(class='main-header')
+			nav(class='top-nav')
+				div(class='top-nav__container'): h1 Title
 			block main-header
 		//- here ends the Main Header
 		//- here start the Main Container
@@ -18,7 +20,11 @@ html(lang='en' prefix='og: http://ogp.me/ns#', class='no-js')
 		//- here ends the Main Container
 		//- here start the Main Footer
 		footer(class='main-footer')
+			div(class='ed-container')
+				div(class='ed-item')
+					span Footer
 			block main-footer
 		//- here ends the Main Footer
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js')
 		script(src="index.js")
 		block scripts

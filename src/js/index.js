@@ -1,4 +1,4 @@
-import internalModule from './modules/internalModule';
+import {activeMenuItem} from "./modules/verticalMenu";
 (()=>{
-	internalModule(); 
+
 })();
